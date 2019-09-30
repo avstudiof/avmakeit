@@ -11,7 +11,7 @@
         $fio = trim($fio);
         $email = trim($email);
         $message  = trim($message);
-        if (mail("amakeit@list.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email." Сообщение: ".$message ,"From: info@avstudiof.github.io/avmakeit/ \r\n")){
+        if (mail("amakeit@list.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email." Сообщение: ".$message ,"From: info@avstudiof.github.io \r\n")){
         echo "Сообщение успешно отправлено";
         } else {
         echo "При отправке сообщения возникли ошибки";
