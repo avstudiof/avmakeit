@@ -1,0 +1,336 @@
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+html {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  padding-right: 30px;
+}
+
+main {
+  font-family: "Seravek";
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 35px;
+  font-size: 40px;
+}
+
+footer {
+  border: 1px solid white;
+  font-family: "Seravek";
+  height: 150px;
+}
+
+section {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  text-align: left;
+  padding-left: 30px;
+  line-height: 200%;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.item:nth-of-type(3) h3{
+  color: white;
+}
+
+.item:nth-of-type(2) h3{
+  color: white;
+}
+
+.title {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  height: 170px;
+  vertical-align: baseline;
+  font-family: "Marker Felt";
+  font-size: 25px;
+}
+
+.btn {
+  font-family: "Seravek";
+  color: black;
+  width: 120px;
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  margin-top: -10px;
+  padding-top: 5px;
+  border: 2px solid black;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: -10px -6px 0px black,
+              10px 6px 0px black,
+              -12px -8px 0px white,
+              12px 8px 0px white;
+}
+
+.btn:hover {
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  box-shadow: -10px -6px 0px black,
+              10px 6px 0px black,
+              -12px -8px 0px red,
+              12px 8px 0px red;
+}
+
+.qualities {
+  font-family: "Seravek";
+  display: inline-block;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  width: 30%;
+  padding-left: 2%;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  height: 80%;
+  word-wrap: break-word;
+  vertical-align: bottom;
+  border: 1px solid black;
+}
+
+.item:nth-of-type(2) {
+  padding-right: 25px;
+}
+
+.item:nth-of-type(3) section{
+  padding-top: 17%;
+}
+
+.services {
+  color: black;
+  background-color: white;
+  height: 750px;
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.reviews {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding-top: 15px;
+  background-color: white;
+  color: black;
+}
+
+.q-title {
+  text-align: right;
+  padding-right: 50px;
+  text-shadow: 0px 0px 10px violet;
+  font-family: "Futura";
+}
+
+.s-title {
+  text-shadow: -2px -2px 1px black;
+  font-family: "Seravek";
+}
+
+.yarkii {
+  font-family: "Chalkboard SE";
+  padding-left: 40%;
+  color: red;
+  text-shadow: -37px -10px 0px orange,
+                37px 10px 0px lime,
+                -47px 0px 0px violet;
+}
+
+.design {
+  padding-left: 20%;
+  letter-spacing: 1em;
+  font-family: "Ayuthaya";
+  text-shadow: -1px -1px 0px black,
+               -2px -2px 0px white;
+}
+
+#blink1 {
+  -webkit-animation: blink1 2s linear infinite;
+  animation: blink1 2s linear infinite;
+}
+@-webkit-keyframes blink1 {
+  0% { color: rgba(34, 34, 34, 1); }
+  50% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 1); }
+}
+@keyframes blink1 {
+  0% { color: rgba(34, 34, 34, 1); }
+  50% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 1); }
+}
+
+.speed {
+  padding-top: 25%;
+}
+
+.r-title {
+  text-align: right;
+  padding-right: 50px;
+  text-shadow: -2px -2px 1px black;
+}
+
+.lime {
+  color: lime;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  font-family: "Futura";
+  font-size: 35px;
+}
+
+.feedback {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 700px;
+  font-family: "Seravek";
+}
+
+.fb-title {
+  font-family: "Seravek";
+  text-align: center;
+  padding-left: 30px;
+  text-shadow: -2px -2px 1px white;
+}
+
+.inst {
+  margin-left: 70px;
+  padding-top: 90px;
+  float: right;
+}
+
+.h4f {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.mail {
+  float: right;
+  font-size: 85px;
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+.alarm {
+  color: white;
+  float: left;
+  padding-top: 60px;
+  text-align: center;
+  margin-left: 60%;
+}
+
+.logo:hover {
+  transition: 0.4s;
+  color: red;
+}
+
+.log {
+  color: red;
+}
+
+.logo:hover .log {
+  color: white;
+  transition: 0.4s;
+}
+
+.item:hover {
+  transition: 0.5s;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px red,
+              -1px -1px 1px red,
+              -1px 1px 1px red,
+              1px -1px 1px red;
+}
+
+ul {
+  font-family: "Seravek";
+  font-size: 30px;
+  list-style-type: none;
+  padding-top: 3%;
+  line-height: 2em;
+}
+
+li {
+  margin-left: 23%;
+  border: 1px solid white;
+  width: 50%;
+  color: black;
+}
+
+li:hover {
+  transition: 0.4s;
+  border: 1px solid lime;
+  border-radius: 8px;
+  background-color: #E4E4E4;
+}
+
+.s-article {
+  text-align: center;
+  width: 60%;
+  padding: 1%;
+  border: 2px solid lime;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 25px;
+  font-family: "Seravek";
+  text-transform: uppercase;
+  color: black;
+  margin-left: 17%;
+  margin-top: 2%;
+  text-shadow: 1px 1px 6px black;
+}
+
+.s-article-2 {
+  text-align: center;
+  width: 60%;
+  padding: 1%;
+  border: 2px solid lime;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 25px;
+  font-family: "Seravek";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 3px black;
+  margin-left: 17%;
+}
