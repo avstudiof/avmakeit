@@ -299,9 +299,8 @@ li {
 
 li:hover {
   transition: 0.4s;
-  border: 1px solid lime;
   border-radius: 8px;
-  background-color: #E4E4E4;
+  background-color: #e39a9a;
 }
 
 .s-article {
@@ -361,7 +360,7 @@ input {
   font-size: 15px;
   background-color: black;
   color: white;
-  border: 3px solid cyan;
+  border: 3px solid white;
 }
 
 input:last-of-type {
@@ -403,7 +402,7 @@ input:last-of-type {
   padding: 5px;
   font-size: 20px;
   background-color: black;
-  border: 3px solid cyan;
+  border: 3px solid white;
   border-radius: 10px;
   width: 90%;
   margin-left: 5%;
@@ -418,11 +417,13 @@ input:last-of-type {
 }
 
 input:hover, input:focus {
-  border-color: white
+  background-color: white;
+  color: black;
 }
 
 #message:hover, #message:focus {
-  border-color: white
+  background-color: white;
+  color: black;
 }
 
 .feedback h3 {
@@ -431,7 +432,7 @@ input:hover, input:focus {
 
 h4 {
   text-align: center;
-  color: lime;
+  color: white;
 }
 
 #submit:hover {
