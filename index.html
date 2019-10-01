@@ -9,13 +9,12 @@
   </head>
 <header>
   <a href="index.html" class="logo header-l">AV<span class="log">#</span>MAKEIT</a>
-  <a href="#" class="btn">ПРОФИЛЬ</a>
-  <a href="#" class="btn">КОНТАКТЫ</a>
-  <a href="#" class="btn">ЗАКАЗАТЬ</a>
+  <a href="contacts.html" class="btn">КОНТАКТЫ</a>
+  <a href="order.html" class="btn">ЗАКАЗАТЬ</a>
 </header>
 <body>
   <div class="title">
-    <h1> Нужен стильный сайт? <br> Уже приступаем к разработке</h1>
+    <h1>Нужен стильный сайт? <br> Уже приступаем к разработке</h1>
   </div>
   <div class="qualities">
     <h2 class="q-title">Почему именно мы??<br>Все просто</h2>
@@ -51,27 +50,30 @@
       <li>МНОГОЕ ЧЕГО ЕЩЕ МОЖЕМ</li>
     </ul>
     <article class="s-article-2">
-      Остальное ты можешь уточнить при заказе.
+      Остальное ты можешь уточнить при заказе
     </article>
     <article class="s-article">
       Конечную цену будут определять твои требование к заказу.<br>Сделаем все возможное под твой бюджет
     </article>
   </div>
   <div class="feedback">
-    <h2 class="fb-title">Чат с разработчиком</h2>
-    <h3>Хотите что-то уточнить или сделать заказ? Пишите</h3>
+    <h2 class="fb-title">связаться с разработчиком</h2>
+    <h3 style="color: lime">Чтобы совершить заказ необходимо заполнуть данную форму</h3>
+    <h4>Связаться можно через данную форму, через раздел <a href="contacts.html" target="_blank"><span style="color: white">КОНТАКТЫ</span></a>, через ссылки в конце страницы</h4>
     <form action="send.php" method="post">
-<input placeholder="Ваше имя" type="text" name="first_name" required>
-<input placeholder="Ваша фамилия" type="text" name="last_name" required>
-<input placeholder="Ваш e-mail" type="email" name="email">
-<textarea name="message" cols="50" rows="10" placeholder="Опишите ваш заказ"></textarea>
-<input type="submit" value="Отправить">
+      <input placeholder="ВАШЕ ИМЯ" type="text" name="first_name" id="first_name" required>
+      <input placeholder="ВАША ФАМИЛИЯ" type="text" name="last_name" id="last_name" required><br>
+      <input placeholder="E-MAIL" type="email" name="email" id="mail" required>
+      <input placeholder="НОМЕР ТЕЛЕФОНА" type="tel" name="phone" id="phone"><br>
+      <textarea name="message" cols="50" rows="10" placeholder="Описание заказа, способы связи с вами, вопросы" id="message"></textarea>
+      <input type="submit" value="ОТПРАВИТЬ" id="submit">
     </form>
   </div>
 </body>
 <footer>
-  <span class="mail"><a href="mailto:amakeit@list.ru" style="color: white">@</a></span>
-  <a href="https://www.instagram.com/av_studiof/"><img class="inst" src="img/inst.png" width="60"></a>
+  <span class="mail"><a href="mailto:amakeit@list.ru" style="color: white" target="_blank">@</a></span>
+  <a href="https://www.instagram.com/av_studiof/" target="_blank"><img class="inst" src="img/inst.png" width="60"></a>
   <a href="index.html" class="logo footer-l">AV<span class="log">#</span>MAKEIT</a><br>
+  <span class="love">Сделано с любовью от AV<span style="color:red">STUDIOS</span></span>
 </footer>
 </html>
