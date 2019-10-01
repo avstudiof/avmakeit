@@ -51,6 +51,61 @@ h3 {
   font-size: 25px;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  font-family: "Seravek";
+  font-size: 30px;
+  list-style-type: none;
+  padding-top: 3%;
+  line-height: 2em;
+}
+
+li {
+  margin-left: 23%;
+  border: 1px solid white;
+  width: 50%;
+  color: black;
+}
+
+li:hover {
+  transition: 0.4s;
+  border-radius: 8px;
+  background-color: #e39a9a;
+}
+
+form {
+  font-family: "Seravek";
+}
+
+input {
+  border-radius: 7px;
+  padding: 1px;
+  padding-left: 5%;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+}
+
+input:last-of-type {
+  padding: 5px;
+  border: 3px solid lime;
+
+}
+
+h4 {
+  text-align: center;
+  color: white;
+}
+
+input:hover, input:focus {
+  background-color: white;
+  color: black;
+}
+
 .item:nth-of-type(3) h3{
   color: white;
 }
@@ -206,10 +261,6 @@ h3 {
   color: lime;
 }
 
-a {
-  text-decoration: none;
-}
-
 .logo {
   color: white;
   font-family: "Futura";
@@ -282,27 +333,6 @@ a {
               1px -1px 1px red;
 }
 
-ul {
-  font-family: "Seravek";
-  font-size: 30px;
-  list-style-type: none;
-  padding-top: 3%;
-  line-height: 2em;
-}
-
-li {
-  margin-left: 23%;
-  border: 1px solid white;
-  width: 50%;
-  color: black;
-}
-
-li:hover {
-  transition: 0.4s;
-  border-radius: 8px;
-  background-color: #e39a9a;
-}
-
 .s-article {
   text-align: center;
   width: 60%;
@@ -332,7 +362,7 @@ li:hover {
   font-weight: bold;
   color: black;
   border-bottom: none;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 1px 1px 0px black;
   margin-left: 17%;
 }
 
@@ -347,26 +377,6 @@ li:hover {
   float: left;
   clear: both;
   padding: 10px;
-}
-
-form {
-  font-family: "Seravek";
-}
-
-input {
-  border-radius: 7px;
-  padding: 1px;
-  padding-left: 5%;
-  font-size: 15px;
-  background-color: black;
-  color: white;
-  border: 3px solid white;
-}
-
-input:last-of-type {
-  padding: 5px;
-  border: 3px solid lime;
-
 }
 
 #first_name {
@@ -416,11 +426,6 @@ input:last-of-type {
   float: right;
 }
 
-input:hover, input:focus {
-  background-color: white;
-  color: black;
-}
-
 #message:hover, #message:focus {
   background-color: white;
   color: black;
@@ -428,11 +433,6 @@ input:hover, input:focus {
 
 .feedback h3 {
   text-align: center;
-}
-
-h4 {
-  text-align: center;
-  color: white;
 }
 
 #submit:hover {
