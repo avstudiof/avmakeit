@@ -44,7 +44,7 @@ section {
   padding: 5px;
   text-align: left;
   padding-left: 30px;
-  line-height: 200%;
+  line-height: 2em;
 }
 
 h3 {
@@ -123,11 +123,11 @@ h3 {
 }
 
 .item:nth-of-type(2) {
-  padding-right: 25px;
+  margin-right: 25px;
 }
 
 .item:nth-of-type(3) section{
-  padding-top: 17%;
+  margin-top: 17%;
 }
 
 .services {
