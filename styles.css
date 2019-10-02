@@ -52,54 +52,35 @@ a {
 }
 
 ul {
+  display: flex;
   font-family: "Seravek";
   font-size: 30px;
   list-style-type: none;
-  padding-top: 3%;
   line-height: 2em;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 li {
-  margin-left: 23%;
   border: 1px solid white;
-  width: 50%;
   color: black;
+  padding: 30px;
+  margin-top: 10px;
+  margin-left: -10px;
+  width: 30%;
+  height: 100px;
 }
 
 li:hover {
   transition: 0.4s;
-  border-radius: 8px;
   background-color: #e8e8e8;
-}
-
-form {
-  font-family: "Seravek";
-}
-
-input {
-  border-radius: 7px;
-  padding: 1px;
-  padding-left: 5%;
-  font-size: 15px;
-  background-color: black;
-  color: white;
-  border: 3px solid white;
-}
-
-input:last-of-type {
-  padding: 5px;
-  border: 3px solid lime;
-
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }
 
 h4 {
   text-align: center;
   color: white;
-}
-
-input:hover, input:focus {
-  background-color: white;
-  color: black;
 }
 
 .item:nth-of-type(3) h3{
@@ -184,19 +165,10 @@ input:hover, input:focus {
 .services {
   color: black;
   background-color: white;
-  height: 750px;
+  height: 900px;
   width: 100%;
   padding-top: 15px;
   text-align: center;
-}
-
-.reviews {
-  width: 100%;
-  height: 400px;
-  text-align: center;
-  padding-top: 15px;
-  background-color: white;
-  color: black;
 }
 
 .q-title {
@@ -263,26 +235,16 @@ input:hover, input:focus {
   font-size: 35px;
 }
 
-.feedback {
-  display: inline-block;
-  background-color: black;
-  color: white;
-  width: 100%;
-  height: 550px;
-  font-family: "Seravek";
-}
-
-.fb-title {
-  font-family: "Seravek";
-  text-align: center;
-  padding-left: 30px;
-  text-shadow: -2px -2px 1px white;
-}
-
 .inst {
   margin-right: 60px;
   padding-top: 64px;
   float: right;
+}
+
+.inst:hover {
+  transition: 0.4s;
+  transform: scale(1.05);
+  position: relative;
 }
 
 .h4f {
@@ -295,6 +257,12 @@ input:hover, input:focus {
   font-size: 85px;
   margin-right: 40px;
   padding-top: 35px;
+}
+
+.mail:hover {
+  transition: 0.4s;
+  transform: scale(1.05);
+  position: relative;
 }
 
 .alarm {
@@ -341,7 +309,6 @@ input:hover, input:focus {
   text-transform: uppercase;
   color: black;
   margin-left: 17%;
-  margin-top: 2%;
   border-top: none;
 }
 
@@ -364,76 +331,18 @@ input:hover, input:focus {
 
 .footer-l {
   float: left;
-  margin-top: 90px;
-  margin-left: 130px;
+  position: relative;
+  top: 70%;
+  left: 100px;
 }
 
 .love {
   font-family: "Marker Felt";
   float: left;
   clear: both;
-  padding: 10px;
-}
-
-#first_name {
-  margin: 10px;
-  margin-left: 24%;
-  width: 20%;
-  height: 30px;
-}
-
-#last_name {
-  margin: 10px;
-  width: 20%;
-  height: 30px;
-}
-
-#mail {
-  margin: 10px;
-  margin-left: 24%;
-  width: 20%;
-  height: 30px;
-}
-
-#phone {
-  margin: 10px;
-  width: 20%;
-  height: 30px;
-}
-
-#message {
-  color: white;
-  margin-top: 10px;
-  height: 100px;
-  padding: 5px;
-  font-size: 20px;
-  background-color: black;
-  border: 3px solid white;
-  border-radius: 10px;
-  width: 90%;
-  margin-left: 5%;
-}
-
-#submit {
-  margin-top: 10px;
-  margin-right: 600px;
-  width: 200px;
-  height: 40px;
-  float: right;
-}
-
-#message:hover, #message:focus {
-  background-color: white;
-  color: black;
-}
-
-.feedback h3 {
-  text-align: center;
-}
-
-#submit:hover {
-  background-color: white;
-  color: black;
+  position: relative;
+  bottom: 30px;
+  left: 90px;
 }
 
 .contacts {
@@ -451,15 +360,6 @@ input:hover, input:focus {
   text-align: center;
 }
 
-.profile-div {
-  display: flex;
-  width: 100%;
-}
-
-.aside-profile {
-
-}
-
-.profile-main {
-  
+#order {
+  width: 150px;
 }
