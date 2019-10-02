@@ -21,10 +21,6 @@ h1 {
   vertical-align: middle;
 }
 
-main {
-  font-family: "Seravek";
-}
-
 h2 {
   text-align: center;
   text-transform: uppercase;
@@ -453,4 +449,17 @@ input:hover, input:focus {
   font-family: "Seravek";
   font-size: 30px;
   text-align: center;
+}
+
+.profile-div {
+  display: flex;
+  width: 100%;
+}
+
+.aside-profile {
+
+}
+
+.profile-main {
+  
 }
