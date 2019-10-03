@@ -428,8 +428,8 @@ h4 {
 #name-of-order {
   font-family: "Comic Sans MS";
   width: 65%;
-  height: 7%;
-  align-self: center;
+  height: 60px;
+  margin-left: 17%;
   text-align: center;
   margin-top: 30px;
   background-color: black;
@@ -451,4 +451,11 @@ h4 {
   color: lime;
   float: right;
   padding-right: 150px;
+}
+
+textarea {
+  width: 70%;
+  height: 240px;
+  margin-top: 70px;
+  margin-left: 15%;
 }
