@@ -20,21 +20,26 @@
   <div class="order">
     <div class="order-aside">
       <span class="question">ВЫБЕРИ РАЗДЕЛ</span>
-      <span class="order-section" class="rediz">ВСЕ ВИДЫ РЕДИЗАЙНА</span>
-      <span class="order-section" class="meket">РАЗРАБОТКА САЙТА ПО ТВОЕМУ МАКЕТУ</span>
-      <span class="order-section" class="wt-maket">РАЗРАБОТКА САЙТА БЕЗ МАКЕТА</span>
-      <span class="order-section" class="mk-maket">СОЗДАНИЕ МАКЕТА</span>
-      <span class="order-section" class="design-work">ГЛОБАЛЬНАЯ РАБОТА С ДИЗАЙНОМ</span>
-      <span class="order-section" class="else">ДРУГОЕ</span>
+      <span class="order-section" class="rediz" onclick="changeRediz()">ВСЕ ВИДЫ РЕДИЗАЙНА</span>
+      <span class="order-section" class="meket" onclick="changeMeket()">РАЗРАБОТКА САЙТА ПО ТВОЕМУ МАКЕТУ</span>
+      <span class="order-section" class="wt-maket" onclick="changeWtMaket()">РАЗРАБОТКА САЙТА БЕЗ МАКЕТА</span>
+      <span class="order-section" class="mk-maket" onclick="changeMkMaket()">СОЗДАНИЕ МАКЕТА</span>
+      <span class="order-section" class="design-work" onclick="changeDesignWork()">ГЛОБАЛЬНАЯ РАБОТА С ДИЗАЙНОМ</span>
+      <span class="order-section" class="else" onclick="changeElse()">ДРУГОЕ</span>
     </div>
     <div class="order-main">
       <h2 class="title-order">Твоя анкета</h2>
       <form>
-      <input type="text" readonly value="ГЛОБАЛЬНАЯ РАБОТА С ДИЗАЙНОМ" id="name-of-order">
-      <textarea></textarea>
+      <input type="text" readonly value="ВЫБЕРИ РАЗДЕЛ" id="name-of-order">
+      <textarea id="text" required placeholder="Подробное описание вашего заказа (максимально детально)"></textarea>
+      <input type="email" required id="email-order" name="email" placeholder="EMAIL">
+      <input type="tel" required id="tel-order" name="tel" placeholder="НОМЕР ТЕЛЕФОНА">
+      <input type="text" name="name" id="name-order" required placeholder="ВАШЕ ИМЯ">
+      <input type="submit" class="btn btn-form">
     </form>
     </div>
   </div>
+  <script src="order-menu.js"></script>
 </body>
 <footer>
   <span class="mail"><a href="mailto:amakeit@list.ru" style="color: white" target="_blank">@</a></span>
