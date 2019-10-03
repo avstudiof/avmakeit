@@ -29,9 +29,9 @@
     </div>
     <div class="order-main">
       <h2 class="title-order">Твоя анкета</h2>
-      <form>
-      <input type="text" readonly value="ВЫБЕРИ РАЗДЕЛ" id="name-of-order">
-      <textarea id="text" required placeholder="Подробное описание вашего заказа (максимально детально)"></textarea>
+      <form action="submitToMail.php" method="post">
+      <input type="text" readonly value="ВЫБЕРИ РАЗДЕЛ" id="name-of-order" name="order-name">
+      <textarea id="text" required placeholder="Подробное описание вашего заказа (максимально детально)" name="message"></textarea>
       <input type="email" required id="email-order" name="email" placeholder="EMAIL">
       <input type="tel" required id="tel-order" name="tel" placeholder="НОМЕР ТЕЛЕФОНА">
       <input type="text" name="name" id="name-order" required placeholder="ВАШЕ ИМЯ">
